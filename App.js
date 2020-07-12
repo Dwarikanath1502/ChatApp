@@ -18,6 +18,13 @@ return(
       <Stack.Screen 
         name = 'RocksBook'
         component = {Home}
+        options={{
+          headerStyle:{
+            backgroundColor:'#3498DB'
+          },
+          headerTintColor:'#fff'
+        }
+        }
       />    
        <Stack.Screen 
         name = 'Chat'

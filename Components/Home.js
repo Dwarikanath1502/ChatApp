@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Text, View , StyleSheet } from 'react-native'
+import { Text, View , StyleSheet,StatusBar } from 'react-native'
 import {Container , Label , Input , Item , Button , Form} from 'native-base';
 
 export default class Home extends Component {
@@ -10,8 +10,11 @@ export default class Home extends Component {
 
     render() {
         return (
+            
             <Container style = {styles.container}>
+                <StatusBar backgroundColor='#74B9FF'/>
                 <Form>
+
                     <Item floatingLabel> 
                         <Label>Username</Label>
                     </Item>

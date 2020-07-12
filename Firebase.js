@@ -84,5 +84,5 @@ class Firebase {
 
 }
 
-firebase.shared = new Firebase();
+Firebase.shared = new Firebase();
 export default Firebase;
